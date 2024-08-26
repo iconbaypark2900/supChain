@@ -1,0 +1,36 @@
+.content-wrapper, .right-side {
+  background-color: #f4f4f4;
+}
+
+.box {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn-primary {
+  background-color: #3c8dbc;
+  border-color: #367fa9;
+}
+
+.btn-primary:hover {
+  background-color: #367fa9;
+  border-color: #204d74;
+}
+
+.info-box {
+  min-height: 100px;
+}
+
+.info-box-icon {
+  height: 100px;
+  line-height: 100px;
+}
+
+.info-box-content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
